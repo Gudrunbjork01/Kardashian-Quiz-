@@ -6,7 +6,7 @@ body {
     display: flex;
     min-width: 80rem;
     font-size: 3rem;
-    background: rebeccapurple;
+    background: rgb(146, 108, 184);
     border-radius: 4px;
     width: 100%;
     margin-bottom: 0.9rem;
@@ -14,7 +14,7 @@ body {
 
 .choice-container:hover {
     transform: 100ms;
-    box-shadow: pink;
+    box-shadow: rgb(196, 21, 50);
     cursor: grab;
 }
 
@@ -30,7 +30,8 @@ body {
 }
 
 .incorrect {
-    background: red;
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1)
+    100%);
 }
 
 

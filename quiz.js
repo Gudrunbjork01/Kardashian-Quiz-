@@ -1,6 +1,6 @@
-/*targeting both class and id */
+console.log("connected!")
 const question = document.querySelector('#question');
-const choices = Array.from(document.querySelectorAll('#.choice-text'));
+const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
@@ -20,7 +20,7 @@ let questions = [
         choice3: 'Kortney Kardashian',
         choice4: 'Kim Kardashian',
         answer: 3, 
-    },
+    },   
     {
         question: 'What is the name of the kardashian sisters father?',
         choice1: 'Rob Kardashian',
@@ -46,7 +46,7 @@ let questions = [
         answer: 3, 
     },
 ]
-
+ 
 const SCORE_POINTS  = 100
 const MAX_QUESTIONS = 4
 
@@ -70,6 +70,41 @@ getNewQuestion= () => {
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions
+    currentQuestion = availableQuestions [questionsIndex]
+    question.innerText = currentQuestion.question
+
+    choices.forEach(choice => {
+        const number = choice.dataset['number']
+        choice.innerText = currentQuestion['choice' + number]
+    })
+
+    availableQuestions.splice(questionIndex, 1)
+
+    acceptingAnswers = true
     
 }
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if(!acceptingAnswers) return
+
+        acceptingAnswers = false
+        const selectedChoice = e.target
+        const selectedAnswer = selectedChoice.dataset['number']
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' :
+        'incorrect'
+
+        if(classToApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+
+        selectedChoice.parentElement.classlist.add(classToApply)
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classlist.remove(classToApply)
+            getNewQuestion()
+        },1000)
+    })
+})
+
