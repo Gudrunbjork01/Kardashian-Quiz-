@@ -1,4 +1,3 @@
-console.log("connected!")
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -54,11 +53,11 @@ startGame = () => {
     questionCounter = 0 
     score = 0 
     availableQuestions = [...questions]
-    getNewQuestions ()
+    getNewQuestion ()
 }
 
 /* creating my getnewquestion function*/
-getNewQuestion= () => {
+getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
@@ -69,8 +68,8 @@ getNewQuestion= () => {
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions [questionsIndex]
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
@@ -78,7 +77,7 @@ getNewQuestion= () => {
         choice.innerText = currentQuestion['choice' + number]
     })
 
-    availableQuestions.splice(questionIndex, 1)
+    availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswers = true
     
@@ -92,19 +91,25 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' :
-        'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         }
 
-        selectedChoice.parentElement.classlist.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply)
 
         setTimeout(() => {
-            selectedChoice.parentElement.classlist.remove(classToApply)
+            selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
-        },1000)
+
+        }, 1000)
     })
 })
 
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+startGame ()
