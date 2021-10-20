@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     margin: 0; 
     padding: 0; 
-    font-size: 65,5;
+    font-size: 63,0%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,7 +69,13 @@ h2 {
     margin-bottom: 1rem;
     color: rgb(247, 242, 247);
     background: linear-gradient(#e66465, #9198e5);
-    border-radius: 6px;
+    border-radius: 4px;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
 
 .btn:hover {
@@ -79,6 +85,50 @@ h2 {
     transform: scale(1.00);
 }
 
+#highscore-btn {
+    background: #e66465;
+}
 
+/* CSS of the end page*/
+.end-form-container {
+    max-width: 30rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
 
+input {
+    box-shadow: lightpink;
+    border: none;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
 
+input::placeholder {
+    color: aquamarine;
+}
+
+#username {
+    outline: none; 
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #fff; 
+}
+
+#saveScoreBtn {
+    border: none;
+}
+
+.fa-home {
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: lightpink;
+}
