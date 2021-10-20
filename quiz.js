@@ -1,9 +1,10 @@
+/* targeting my classes an IDs*/ 
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
 
+/* declareing my variables*/
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0 
@@ -46,8 +47,10 @@ let questions = [
     },
 ]
  
+/* my scorepoints and questions */
 const SCORE_POINTS  = 100
 const MAX_QUESTIONS = 4
+
 
 startGame = () => {
     questionCounter = 0 
@@ -56,7 +59,7 @@ startGame = () => {
     getNewQuestion ()
 }
 
-/* creating my getnewquestion function*/
+/* keeping track of my scores*/
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
@@ -64,35 +67,44 @@ getNewQuestion = () => {
         return window.location.assign('/end.html')
     }
 
+/* keeping track of my questions*/
     questionCounter++ 
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 
+/* keeping track of question you are at */
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
-
-    choices.forEach(choice => {
+    
+ /* choice tracker*/
+        choices.forEach(choice => {
         const number = choice.dataset['number']
         choice.innerText = currentQuestion['choice' + number]
     })
-
+/* keeping track of my questions*/
     availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswers = true
     
+
+    function newFunction() {
+        progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+    }
 }
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
 
+        /* choice A, B, C ,D*/
         acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
+        /* targeting red an green css */
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
+        /* increases score by 100% (100points)*/
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         }
@@ -113,3 +125,5 @@ incrementScore = num => {
 }
 
 startGame ()
+
+

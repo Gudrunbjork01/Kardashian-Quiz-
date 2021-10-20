@@ -12,25 +12,26 @@
 <body>
     <div class="container">
         <div id="game" class="justify-center flex-column">
+            <!-- My heads up display-->
             <div id="hud">
                 <div class="hud-item">
                     <p id="progressText" class="hud-prefix">
                         Question
-                    </p>
-                    <div id="progressBar">
-                        <div id="progressBarfull"></div>
-                    </div>
+                    </p>   
                 </div>
+                <!-- My heads up display-->
                 <div class="hud-item">
                     <p class="hud-prefix">
                         score
                     </p>
+                    <!-- My Scoreboard-->
                     <h1 class="hud-main-text" id="score">
                         0
                     </h1>
                 </div>
             </div>
-            <h1 id="question">what is the answer to this question</h1>
+            <!-- Questions!-->
+            <h1 id="question"> question</h1>
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
                 <p class="choice-text" data-number="1"> Choice</p>
@@ -49,6 +50,7 @@
             </div>
         </div>
     </div>
+    <!-- link to JS-->
     <script src="quiz.js"></script>
     
 

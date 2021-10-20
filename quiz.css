@@ -1,20 +1,21 @@
+/* targeting the body*/
 body {
     color: rgb(3, 3, 3);
 }
 
+/* targeting A,B,C,D containers*/
 .choice-container {
     display: flex;
-    min-width: 80rem;
+    min-width: 30rem;
     font-size: 3rem;
     background: rgb(146, 108, 184);
     border-radius: 4px;
     width: 100%;
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.8rem;
 }
 
+
 .choice-container:hover {
-    transform: 100ms;
-    box-shadow: rgb(196, 21, 50);
     cursor: grab;
 }
 
@@ -38,7 +39,8 @@ body {
 .correct {
     background: green;
 }
-/* display (heads up) */ 
+
+/* heads up display */ 
 #hud {
     display: flex;
     justify-content: space-between;
@@ -46,7 +48,7 @@ body {
 
 .hud-prefix {
     text-align: center;
-    font-size: 10rem;
+    font-size: 5rem;
 }
 
 .hud-main-text {
@@ -54,26 +56,9 @@ body {
 }
 
 
-#progressBar {
-    width: 20rem;
-    height: 3rem;
-    border: 0.3rem solid pink;
-    margin-top: 2rem;
-    border-radius: 50px;
-    overflow: hidden; 
-}
-
-#progressBarFull {
-    height: 100%;
-    background: rgb(190, 134, 143);
-    width: 0%;
-
-
-}
-
 /* Targeting Choice*/ 
 @media screen and (max-width: 768px) {
     .choice-container {
-        min-width: 40rem;
+        min-width: 30rem;
     }
 }
