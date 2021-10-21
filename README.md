@@ -4,7 +4,7 @@
 This is a Quiz to test your kardashian knowledge trough a well tought out JavaScript Website. I have a huge interest when it somes to the kardashian/jenner family. 
 
 ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](https://i.pinimg.com/originals/d5/d3/8a/d5d38a7dcff8111c02a77bb4c18dfba5.jpg)
 
 ## User Experience (UX)
 
