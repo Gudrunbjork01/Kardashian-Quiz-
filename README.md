@@ -1,6 +1,4 @@
-<h1 Kardashian Quiz</h1>
 
-[View the live project here.]
 
 ## Introduction ##
 This is a Quiz to test your kardashian knowledge trough a well tought out JavaScript Website. I have a huge interest when it somes to the kardashian/jenner family. 
@@ -22,19 +20,16 @@ This is a Quiz to test your kardashian knowledge trough a well tought out JavaSc
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - 
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - 
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Contact Us Page Wireframe - [
 
 ## Features
 
--   Responsive on all device sizes
+-   
 
--   Interactive elements
-
-## Technologies Used
 
 ### Languages Used
 
