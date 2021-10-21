@@ -68,6 +68,24 @@ git
 ### Frameworks, Libraries & Programs Used
 
 
+- quiz.js 
+<img width="1165" alt="Skärmavbild 2021-10-21 kl 06 03 41" src="https://user-images.githubusercontent.com/82470469/138209698-82f5dccb-acc3-4d5b-8203-cebfd246c26b.png">
+
+- end.js 
+<img width="938" alt="Skärmavbild 2021-10-21 kl 06 11 23" src="https://user-images.githubusercontent.com/82470469/138210246-d04d831d-f95e-49b4-a778-8f2b599a6fd3.png">
+
+- index.html 
+<img width="1366" alt="Skärmavbild 2021-10-21 kl 06 15 56" src="https://user-images.githubusercontent.com/82470469/138210600-d2d38f39-0645-4dad-b16e-e32c77818c5d.png">
+
+- quiz.html
+<img width="1381" alt="Skärmavbild 2021-10-21 kl 06 17 12" src="https://user-images.githubusercontent.com/82470469/138210737-8a933664-f672-4064-9522-6d4bda1dff8a.png">
+
+- end.html 
+<img width="1406" alt="Skärmavbild 2021-10-21 kl 06 18 30" src="https://user-images.githubusercontent.com/82470469/138210832-56280884-64eb-4035-bbb1-de9b8453c2dc.png">
 
 
+- style.css 
+<img width="1406" alt="Skärmavbild 2021-10-21 kl  06 18 30" src="https://user-images.githubusercontent.com/82470469/138213296-9d89bf81-78c2-4b1a-8e58-8fd80d6c1f8b.png">
 
+- quiz.css 
+<img width="1067" alt="Skärmavbild 2021-10-21 kl  06 50 22" src="https://user-images.githubusercontent.com/82470469/138213485-e41b4c7f-5caa-44e0-be40-a359ef10e5a6.png">
