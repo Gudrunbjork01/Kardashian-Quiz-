@@ -51,7 +51,8 @@ git
 
     -   Mobile Home Page Wireframe 
 
-    <img width="360" alt="Skärmavbild 2021-10-21 kl  03 30 58" src="https://user-images.githubusercontent.com/82470469/138196975-678440d1-8138-43b2-8a4c-4f4c76fd22dd.png">
+   <img width="360" alt="Skärmavbild 2021-10-21 kl  03 30 58" src="https://user-images.githubusercontent.com/82470469/138215112-be7371ca-d149-487b-b8e4-68905f1124c0.png">
+
 
      -   Mobile Quiz Wireframe 
 
@@ -110,3 +111,7 @@ https://www.youtube.com/watch?v=PkZNo7MFNFg
 
 2. website 
 https://www.w3schools.com
+
+3. Liner gradient 
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient()
