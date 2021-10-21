@@ -3,7 +3,8 @@
 ## Introduction ##
 This is a Quiz to test your kardashian knowledge trough a well tought out JavaScript Website. I have a huge interest when it somes to the kardashian/jenner family. 
 
-<h2 align="center"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F453456256201481664%2F&psig=AOvVaw3qwm2IOQAgETBOJjFW8J99&ust=1634861830278000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCMjK_Iad2vMCFQAAAAAdAAAAABAO"></h2>
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
 ## User Experience (UX)
 
