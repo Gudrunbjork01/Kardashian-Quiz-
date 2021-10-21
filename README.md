@@ -34,14 +34,17 @@ git
 
     -   Home Page Wireframe 
     
-    <img width="630" alt="Skärmavbild 2021-10-21 kl  03 20 49" src="https://user-images.githubusercontent.com/82470469/138196666-16cb3ef4-2777-407a-8776-618d2058bc41.png">
+    
+<img width="629" alt="Skärmavbild 2021-10-21 kl  07 04 13" src="https://user-images.githubusercontent.com/82470469/138214707-dba1c01f-eb6b-418f-8c3a-41b73c85939a.png">
+
 
     - The home page is a colorful a special touch, it is made to be simple and elegant. and has a clear "ready?" to make a statment. the banner is decorated with some linear gradient for a pop and the background is a nice light pink color. 
 
 
     - Quiz Wireframe 
 
-    <img width="609" alt="Skärmavbild 2021-10-21 kl  03 28 30" src="https://user-images.githubusercontent.com/82470469/138196885-93faffce-fe8e-4810-a577-5f0be316f916.png">
+   <img width="710" alt="Skärmavbild 2021-10-21 kl  07 02 26" src="https://user-images.githubusercontent.com/82470469/138214774-3b96178f-0f28-4296-b345-887fea0d51fe.png">
+
 
     - The quiz page also has a touch of light pink in the background but is now focusing on the kardashian purple. the ScoreBoard in the top corner keeps track of your points and if (correct) the banner turns green and if (incorrect) it turns red 
 
@@ -53,7 +56,8 @@ git
      -   Mobile Quiz Wireframe 
 
 
-<img width="283" alt="Skärmavbild 2021-10-21 kl  03 30 20" src="https://user-images.githubusercontent.com/82470469/138197070-2c6c9572-d057-413a-959c-5fb047d32f95.png">
+<img width="379" alt="Skärmavbild 2021-10-21 kl  07 06 19" src="https://user-images.githubusercontent.com/82470469/138214936-fd709254-92f5-4d38-9edd-56332f92d306.png">
+
 
     
 
@@ -65,7 +69,7 @@ git
 3. Javascript 
 
 
-### Frameworks, Libraries & Programs Used
+### 5. Manual Testing 
 
 
 - quiz.js 
@@ -89,3 +93,20 @@ git
 
 - quiz.css 
 <img width="1067" alt="Skärmavbild 2021-10-21 kl  06 50 22" src="https://user-images.githubusercontent.com/82470469/138213485-e41b4c7f-5caa-44e0-be40-a359ef10e5a6.png">
+
+
+### 5. Technologies Used
+1. W3C Markup and Jigsaw valditators 
+2. Untitled program for Wireframe 
+3. Google Chrome
+4. Github 
+5. Gitpod 
+
+8. ### Credits 
+
+1. Youtube 
+https://www.youtube.com/watch?v=W6NZfCO5SIk
+https://www.youtube.com/watch?v=PkZNo7MFNFg
+
+2. website 
+https://www.w3schools.com
