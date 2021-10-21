@@ -20,12 +20,25 @@ git
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - <img width="630" alt="Skärmavbild 2021-10-21 kl  03 20 49" src="https://user-images.githubusercontent.com/82470469/138196666-16cb3ef4-2777-407a-8776-618d2058bc41.png">
+    -   Home Page Wireframe - 
+    
+    <img width="630" alt="Skärmavbild 2021-10-21 kl  03 20 49" src="https://user-images.githubusercontent.com/82470469/138196666-16cb3ef4-2777-407a-8776-618d2058bc41.png">
+
+    - Quiz Wireframe 
+
+    <img width="609" alt="Skärmavbild 2021-10-21 kl  03 28 30" src="https://user-images.githubusercontent.com/82470469/138196885-93faffce-fe8e-4810-a577-5f0be316f916.png">
 
 
-    -   Mobile Wireframe - 
+    -   Mobile Home Page Wireframe 
 
-    -   Contact Us Page Wireframe - [
+    <img width="360" alt="Skärmavbild 2021-10-21 kl  03 30 58" src="https://user-images.githubusercontent.com/82470469/138196975-678440d1-8138-43b2-8a4c-4f4c76fd22dd.png">
+
+     -   Mobile Quiz Wireframe 
+
+
+<img width="283" alt="Skärmavbild 2021-10-21 kl  03 30 20" src="https://user-images.githubusercontent.com/82470469/138197070-2c6c9572-d057-413a-959c-5fb047d32f95.png">
+
+  
 
 ## Features
 
